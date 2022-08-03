@@ -22,3 +22,8 @@ function restore_options() {
 }
 document.addEventListener('DOMContentLoaded', restore_options);
 document.getElementById('save').addEventListener('click', save_options);
+document.onkeydown = function(e) {
+  if (e.keyCode == 13) {
+    save_options();
+  }
+};
