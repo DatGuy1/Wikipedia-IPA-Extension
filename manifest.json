@@ -1,6 +1,6 @@
 {
   "name": "Wikipedia IPA Reader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Listen to how the IPA pronounciation sounds on Wikipedia articles",
   "background": {
     "service_worker": "background.js"
