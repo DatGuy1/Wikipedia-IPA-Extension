@@ -16,7 +16,7 @@ function save_options() {
 // Restores select box and checkbox state using the preferences
 // stored in chrome.storage.
 function restore_options() {
-  chrome.storage.sync.get({endpointUrl: 'http://127.0.0.1:8000'}, (data) => {
+  chrome.storage.sync.get({endpointUrl: 'https://ipa.datguy.at'}, (data) => {
     document.getElementById('endpointUrl').value = data.endpointUrl;
   });
 }

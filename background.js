@@ -1,7 +1,7 @@
 let endpointUrl;
 
 chrome.runtime.onInstalled.addListener(() => {
-    chrome.storage.sync.get({endpointUrl: 'http://127.0.0.1:8000'}, (data) => {
+    chrome.storage.sync.get({endpointUrl: 'https://ipa.datguy.at'}, (data) => {
         endpointUrl = data.endpointUrl;
         console.log(endpointUrl);
     });
